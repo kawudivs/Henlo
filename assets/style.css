@@ -25,17 +25,18 @@ section h2 {
     margin-bottom: 20px; /* Space between heading and button */
 }
 
-button {
+#section1 button { /* Target the button specifically in section1 */
     padding: 10px 20px;
-    background-color: #4CAF50; /* Green */
+    background-color: #9400D3; /* Violet */
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 20px; /* Make it oval/rounded */ /* Adjust the radius for desired roundness */
+    transition: background-color 0.3s ease; /* Add a transition for hover effect */
 }
 
-/* Example styling for a specific section if needed */
-#section1 {
-    background-color: #e0f2f7; /* Light blue */
+#section1 button:hover {
+  background-color: #7A00B4; /* A slightly darker violet on hover */
 }
 
 #section2 {
