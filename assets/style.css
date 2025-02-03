@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the footer sticks to the bottom */
+}
+
+main {
+    flex: 1; /* Allow main content to take up available space */
+    overflow-y: auto; /* Make the main section scrollable */
+    /* No padding here, sections will handle it */
+}
+
+section {
+    min-height: 100vh; /* Make each section cover the entire viewport height */
+    display: flex; /* Enable flexbox for centering */
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Horizontally center content */
+    padding: 20px; /* Add padding within the section */
+}
+
+section h2 {
+    margin-bottom: 20px; /* Space between heading and button */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Example styling for a specific section if needed */
+#section1 {
+    background-color: #e0f2f7; /* Light blue */
+}
+
+#section2 {
+     background-color: #ffffe0; /* Light yellow */
+}
+
+#section3 {
+    background-color: #f0f0f0; /* Light gray */
+}
